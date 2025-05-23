@@ -1,3 +1,6 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,7 +10,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="valora_favicon.svg" />
   <link rel="preload" href="valora_favicon.svg" as="image" type="image/svg+xml" />
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" /> <!-- optional fallback PNG -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
 
   <!-- Open Graph for social media -->
   <meta property="og:title" content="Valora Vale | Enter the Vault - Premium Digital Experiences" />
@@ -22,11 +25,11 @@
   <meta name="twitter:description" content="Join Valora Vale's exclusive community. Premium digital experiences, curated content, and elegant connections await." />
   <meta name="twitter:image" content="https://valoravale.com/preview.jpg" />
 
-  <!-- Theme color (mobile browser coloring) -->
+  <!-- Theme color -->
   <meta name="theme-color" content="#2d1b69" media="(prefers-color-scheme: dark)" />
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
 
-  <!-- Structured Data (JSON-LD Schema.org) -->
+  <!-- Schema.org structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,3 +51,34 @@
     }
   }
   </script>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #2d1b69 0%, #11001a 100%);
+      color: #e8e3f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(45deg, #9333ea, #ec4899);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Valora Vale</h1>
+  <p>If you're reading this, the site is live and your deployment was successful.</p>
+</body>
+</html>
